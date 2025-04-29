@@ -1,50 +1,107 @@
-# Welcome to your Expo app 👋
+Siap! Aku buatin kamu **README** profesional untuk aplikasi **App Tracker Ibadah**.  
+Isinya akan lengkap: deskripsi, fitur, cara instalasi, cara pakai, dan lisensi dasar.
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+---
 
-## Get started
+Berikut draft **`README.md`** untuk GitHub kamu:
 
-1. Install dependencies
+```markdown
+# App Tracker Ibadah
+
+Aplikasi **Tracker Ibadah** adalah aplikasi mobile sederhana berbasis **React Native** untuk membantu mencatat, mengelola, dan memantau kegiatan ibadah harian, seperti shalat wajib dan ibadah sunnah.
+
+## 📱 Fitur Aplikasi
+
+- ✅ Menambahkan catatan ibadah (nama, kategori, dan tanggal).
+- ✅ Edit pengingat ibadah dengan konfirmasi.
+- ✅ Hapus catatan dengan konfirmasi.
+- ✅ Tandai ibadah yang sudah dilaksanakan.
+- ✅ Filter daftar berdasarkan kategori (Wajib / Sunnah / Semua).
+- ✅ Menyimpan data lokal menggunakan **AsyncStorage** (data tetap ada walau aplikasi ditutup).
+
+---
+
+## 🚀 Instalasi
+
+1. Clone repository ini:
+
+   ```bash
+   git clone https://github.com/username/app-tracker-ibadah.git
+   cd app-tracker-ibadah
+   ```
+
+2. Install dependencies:
 
    ```bash
    npm install
    ```
 
-2. Start the app
+3. Jalankan aplikasi:
 
    ```bash
-    npx expo start
+   npm start
+   ```
+   atau jika menggunakan Expo:
+
+   ```bash
+   expo start
    ```
 
-In the output, you'll find options to open the app in a
+---
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## 🛠️ Teknologi yang Digunakan
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+- [React Native](https://reactnative.dev/)
+- [Expo](https://expo.dev/) (opsional, disarankan untuk development cepat)
+- [AsyncStorage](https://react-native-async-storage.github.io/async-storage/)
+- [TailwindCSS for RN (twrnc)](https://github.com/jaredh159/tailwind-react-native-classnames)
+- [react-native-element-dropdown](https://github.com/hoaphantn7604/react-native-element-dropdown)
+- [react-native-picker](https://github.com/react-native-picker/picker)
+- [expo-vector-icons](https://icons.expo.dev/)
 
-## Get a fresh project
+---
 
-When you're ready, run:
+## ✨ Cara Menggunakan
 
-```bash
-npm run reset-project
+1. Buka aplikasi.
+2. Isi **Nama Ibadah**, **Kategori** (Wajib/Sunnah), dan **Tanggal**.
+3. Tekan **Tambah Pengingat** untuk menyimpan.
+4. Untuk mengedit, tekan ikon ✏️ pada pengingat.
+5. Untuk menghapus, tekan ikon 🗑️ lalu konfirmasi.
+6. Tandai ibadah yang sudah dilakukan dengan menekan lingkaran checkbox ✅.
+7. Gunakan dropdown untuk memfilter ibadah berdasarkan kategori.
+
+---
+
+## 📂 Struktur Folder (Sederhana)
+
+```
+app-tracker-ibadah/
+├── App.js
+├── screens/
+│   └── HomeScreen.js
+├── assets/
+│   └── (icon, gambar, dll)
+├── package.json
+└── README.md
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+---
 
-## Learn more
+## 📄 Lisensi
 
-To learn more about developing your project with Expo, look at the following resources:
+Project ini dibuat untuk pembelajaran dan pengembangan diri.  
+Silakan digunakan atau dimodifikasi sesuai kebutuhan pribadi.  
+Lisensi: **MIT License**.
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+---
 
-## Join the community
+## 🙌 Kontribusi
 
-Join our community of developers creating universal apps.
+Jika kamu ingin berkontribusi, silakan fork repository ini, buat branch baru, dan buat pull request.
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+---
+
+---
+
+```
